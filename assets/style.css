@@ -1,0 +1,323 @@
+
+element {
+    --main-color: orangered;
+    --secondary-color: white;
+    --third-color: navy;
+    --fourth-color: purple;
+    --fifth-color: lightblue;
+    --sixth-color: darkmagenta;
+}
+
+:root {
+    --main-color: orangered;
+    --secondary-color: white;
+    --third-color: navy;
+    --fourth-color: purple;
+    --fifth-color: lightblue;
+    --sixth-color: darkmagenta;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--fourth-color);
+    background-image: url("https://wallpaperaccess.com/full/1276751.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+/* HEADER */
+  header {
+    top: 0;
+    padding: 5px 35px;
+    background-color: var(--tertiary-color);
+    opacity: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    background-image: url("https://astronomy.com/-/media/Images/Magazine%20Articles/2019/May/Scorpius.png?mw=600");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header h1 {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 50;
+    font-size: 36px;
+    color: var(--main-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  header nav {
+    margin: 7px 0;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li a {
+    color: var(--main-color);
+    padding: 20px 20px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header nav ul li a:hover {
+    background: var(--fifth-color);
+    color: var(--sixth-color);
+    border-radius: 5px;
+    text-shadow: none;
+  }
+  header nav ul li a:hover {
+    background: var(--fifth-color);
+    color: var(--sixth-color);
+    border-radius: 5px;
+    text-shadow: none;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  
+  
+  /* FOOTER */
+  footer {
+    background-size: cover;
+    background-position: center;
+    background: var(--fifth-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer h2 {
+    color: var(--main-color);
+    font-size: 30px;
+    margin: 0;
+  }
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+    color: var(--fourth-color)
+  }
+  footer a {
+    color: var(--second-color);
+  }
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  
+  /* SECTION */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px;
+  }
+  
+  .hero-cta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0;
+    background-color: var(--fifth-color);
+    width: 35%;
+    text-align: center;
+    margin: 3%;
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .hero-cta h2 {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 55px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .hero-cta img {
+      width: 15%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+
+
+  /* SECTIONS */
+  .about { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid;
+    background: var(--third-color);
+  }
+  .about {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about:last-child {
+    border-bottom: none;
+  }
+  .about h2 {
+    color: var(--main-color);
+    font-size: 46px;
+    flex: 1 30%;
+  }
+  .about-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .about img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  .about p {
+    color: var(--secondary-color);
+    font-size: 18px;
+  }
+  
+  .work { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid;
+    background: var(--third-color);
+  }
+  .work {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .work:last-child {
+    border-bottom: none;
+  }
+  .work h2 {
+    color: var(--main-color);
+    font-size: 46px;
+    flex: 1 30%;
+  }
+  .work-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .work img {   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    flex: 1 12%;
+    margin-right: 20px;
+    flex-grow: inherit;
+  }
+  .work p {
+    color: var(--secondary-color);
+    font-size: 18px;
+  }
+
+  .contact { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid;
+    background: var(--third-color);
+  }
+  .contact { 
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact:last-child {
+    border-bottom: none;
+  }
+  .contact h2 {
+    color: var(--main-color);
+    font-size: 46px;
+    flex: 1 30%;
+  }
+  .contact-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .contact p {
+    color: var(--secondary-color);
+    font-size: 18px;
+  }
+  .contact img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .contact {
+    display:  flex;
+    flex-wrap: wrap;
+  }
+
+/* 
+Header
+https://astronomy.com/-/media/Images/Magazine%20Articles/2019/May/Scorpius.png?mw=600
+
+
+About me
+https://images01.military.com/sites/default/files/media/education/content-images/books/2011/05/books-stacked--library-380x.jpg 
+
+
+Portfolio
+https://cloudinary.hbs.edu/hbsit/image/upload/s--EmT0lNtW--/f_auto,c_fill,h_375,w_750,/v20200101/6978C1C20B650473DD135E5352D37D55.jpg
+
+
+RESUME
+https://www.theladders.com/wp-content/uploads/resume-190916-800x450.jpg
+
+
+ovarall background
+https://wallpaperaccess.com/full/1276751.jpg */
