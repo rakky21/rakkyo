@@ -25,7 +25,7 @@ element {
   
   body {
     color: var(--fourth-color);
-    background-image: url("https://wallpaperaccess.com/full/1276751.jpg");
+    background-image: url("https://i.natgeofe.com/k/a2a738a9-e019-4911-98e6-17f31c45ac88/milky-way-2_2x1.jpg");
     background-repeat: no-repeat, repeat;
     background-position: center;
     background-size: cover;
@@ -37,12 +37,12 @@ element {
     top: 0;
     padding: 5px 35px;
     background-color: var(--tertiary-color);
-    opacity: 45%;
+    opacity: 85%;
     display: flex;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
-    background-image: url("https://astronomy.com/-/media/Images/Magazine%20Articles/2019/May/Scorpius.png?mw=600");
+    background-image: url("https://i.natgeofe.com/k/a2a738a9-e019-4911-98e6-17f31c45ac88/milky-way-2_2x1.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -106,6 +106,8 @@ element {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    background-image: url("https://i.natgeofe.com/k/a2a738a9-e019-4911-98e6-17f31c45ac88/milky-way-2_2x1.jpg");
+
   }
   footer h2 {
     color: var(--main-color);
@@ -146,6 +148,9 @@ element {
     color: var(--main-color);
     font-size: 18px;
     line-height: 1.2;
+    opacity: 75%;
+    background-image: url("https://i.natgeofe.com/k/a2a738a9-e019-4911-98e6-17f31c45ac88/milky-way-2_2x1.jpg");
+
   }
   .hero-cta h2 {
     text-decoration: underline;
@@ -154,6 +159,14 @@ element {
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
+  /* .colmuns {
+    background-image: url("https://i.natgeofe.com/k/a2a738a9-e019-4911-98e6-17f31c45ac88/milky-way-2_2x1.jpg");
+    opacity: 75%;
+  } */
+
+
+
   .hero-cta img {
       width: 15%;
   }
@@ -161,7 +174,6 @@ element {
   .hero-cta {
     text-align: center;
   }
-
 
   /* SECTIONS */
   .about { 
